@@ -4,7 +4,7 @@ const AUTHORS = [
     name: "Николай Алексеевич Некрасов",
     years: "1821–1878",
     bio: "Русский поэт, писатель и публицист. Большая часть его произведений посвящена жизни простого народа, крестьян и детей. Он писал о тяжёлом труде, красоте русской природы и сострадании к людям.",
-    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Nekrasov_Nikolay.jpg/400px-Nekrasov_Nikolay.jpg",
+    img: "nekrasov.jpg", // <--- Заменили ссылку
     works: [
       {
         id: "nekrasov-muzhichok",
@@ -53,7 +53,7 @@ const AUTHORS = [
     name: "Фёдор Иванович Тютчев",
     years: "1803–1873",
     bio: "Русский поэт, дипломат и мыслитель. Мастер пейзажной лирики. Его стихи о природе очень музыкальны, часто описывают переходные состояния — начало грозы, первый снег, приход весны.",
-    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/FI_Tyutchev.jpg/400px-FI_Tyutchev.jpg",
+    img: "tyutchev.jpg", // <--- Заменили ссылку
     works: [
       {
         id: "tyutchev-charodeykoyu",
@@ -92,7 +92,7 @@ const AUTHORS = [
     name: "Афанасий Афанасьевич Фет",
     years: "1820–1892",
     bio: "Русский поэт-лирик. Его стихи отличаются необыкновенной музыкальностью и тонким описанием природы. Многие его произведения были положены на музыку и стали романсами.",
-    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/A._Fet.jpg/400px-A._Fet.jpg",
+    img: "fet.jpg", // <--- Заменили ссылку
     works: [
       {
         id: "fet-chudnaya-kartina",
@@ -136,7 +136,7 @@ const AUTHORS = [
     name: "Аполлон Николаевич Майков",
     years: "1821–1897",
     bio: "Русский поэт. Писал много стихов для детей, воспевал красоту природы, деревенскую жизнь и народные праздники. Его стихи очень светлые и радостные.",
-    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Apollon_Maikov.jpg/400px-Apollon_Maikov.jpg",
+    img: "maykov.jpg", // <--- Заменили ссылку
     works: [
       {
         id: "maykov-vesna",
@@ -162,7 +162,7 @@ const AUTHORS = [
     name: "Алексей Николаевич Плещеев",
     years: "1825–1893",
     bio: "Русский поэт и переводчик. Большое внимание уделял детской литературе. Его стихи о весне, осени и детях очень часто включают в школьную программу.",
-    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Plescheev_A.N..jpg/400px-Plescheev_A.N..jpg",
+    img: "plescheev.jpg", // <--- Заменили ссылку
     works: [
       {
         id: "plescheev-vesna",
@@ -188,7 +188,7 @@ const AUTHORS = [
     name: "Иван Захарович Суриков",
     years: "1841–1880",
     bio: "Русский поэт-самоучка. Его стихи очень простые, искренние и близкие к народным песням. Самое известное его стихотворение — «Вот моя деревня…» о зимних забавах.",
-    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Ivan_Surikov.jpg/400px-Ivan_Surikov.jpg",
+    img: "surikov.jpg", // <--- Заменили ссылку
     works: [
       {
         id: "surikov-vot-moya-derevnya",
@@ -214,7 +214,7 @@ const AUTHORS = [
     name: "Иван Саввич Никитин",
     years: "1824–1861",
     bio: "Русский поэт. В его стихах чувствуется глубокая любовь к родной земле, к русской природе. Он писал о жизни крестьян, о красоте лесов и полей.",
-    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Ivan_Nikitin.jpg/400px-Ivan_Nikitin.jpg",
+    img: "nikitin.jpg", // <--- Заменили ссылку
     works: [
       {
         id: "nikitin-utro",
@@ -236,4 +236,3 @@ const AUTHORS = [
     ]
   }
 ];
-
