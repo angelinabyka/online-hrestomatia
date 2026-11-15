@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Автор · Хрестоматия</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a href="index.html" class="logo">❦ Хрестоматия</a>
+    <div class="topbar-actions">
+      <button id="kidsToggle" class="btn btn-toggle">🧒 Детский режим</button>
+    </div>
+  </header>
+
+  <main class="container writer-container">
+    <a href="index.html" class="back-link">← Все авторы</a>
+
+    <section class="writer-header">
+      <img id="authorImg" src="" alt="Портрет" class="writer-portrait">
+      <div class="writer-info">
+        <h1 id="authorName"></h1>
+        <p id="authorYears" class="writer-years"></p>
+        <p id="authorBio" class="writer-bio"></p>
+      </div>
+    </section>
+
+    <div class="ornament">❦</div>
+
+    <h2 class="works-title">Произведения</h2>
+    <section id="authorWorks" class="catalog"></section>
+  </main>
+
+  <footer class="footer">
+    <div class="ornament">❦</div>
+    <p>Тексты — в общественном достоянии. Учебный проект.</p>
+  </footer>
+
+  <script src="core.js"></script>
+  <script src="item.js"></script>
+</body>
+</html>
