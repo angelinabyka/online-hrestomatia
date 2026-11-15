@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Чтение · Хрестоматия</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a href="index.html" class="logo">❦ Хрестоматия</a>
+    <div class="topbar-actions">
+      <button id="kidsToggle" class="btn btn-toggle">🧒 Детский режим</button>
+    </div>
+  </header>
+
+  <main class="container reader-container">
+    <a href="index.html" class="back-link" id="topBackLink">← Назад</a>
+
+    <article class="reader">
+      <h1 id="title"></h1>
+      <p id="author" class="reader-author"></p>
+      <p id="meta" class="reader-meta"></p>
+      <div class="ornament ornament-small">❦</div>
+
+      <div class="reader-toolbar">
+        <button id="speakBtn" class="btn btn-primary">🔊 Читать вслух</button>
+        <button id="stopBtn" class="btn">⏹ Остановить</button>
+        <div class="font-controls">
+          <button id="fontMinus" class="btn btn-round" title="Меньше шрифт">A−</button>
+          <button id="fontPlus" class="btn btn-round" title="Больше шрифт">A+</button>
+        </div>
+      </div>
+
+      <div id="text" class="reader-text"></div>
+
+      <section id="questions" class="questions hidden">
+        <h2>Проверь себя</h2>
+        <ol id="questionsList"></ol>
+      </section>
+
+      <div class="reader-footer">
+        <a href="index.html" class="back-link" id="bottomBackLink">← Назад к каталогу</a>
+      </div>
+    </article>
+  </main>
+
+  <footer class="footer">
+    <div class="ornament">❦</div>
+    <p>Тексты — в общественном достоянии. Учебный проект.</p>
+  </footer>
+
+  <script src="core.js"></script>
+  <script src="read.js"></script>
+</body>
+</html>
